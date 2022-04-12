@@ -7,7 +7,9 @@ struct SymbolGridApp: App {
             NavigationView {
                 SymbolGrid()
             }
+
             .navigationViewStyle(.stack)
         }
     }
 }
+

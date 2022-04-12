@@ -21,12 +21,12 @@ struct ItemDetail: View {
                 .symbolRenderingMode(.hierarchical)
                 .foregroundColor(.accentColor)
         }
-        padding()
+        .padding()
     }
 }
 
-struct ItemDetail_Previews: PreviewProvider {
+struct Details_Previews: PreviewProvider {
     static var previews: some View {
-        ItemDetail(symbolName: "brain.head.profile")
+        ItemDetail(symbolName: "magnifyingglass")
     }
 }
